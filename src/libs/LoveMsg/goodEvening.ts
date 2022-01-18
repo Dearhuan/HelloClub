@@ -87,8 +87,8 @@ const getStory = async() => {
     text: {
       content: `给鱼崽的今日份睡前故事来喽：
 🌑🌒🌓🌔🌕🌝😛\n
-『${res.title}』
-${res.content}`,
+『${res.title || '-'}』
+${res.content || '-'}`,
     },
   }
 
