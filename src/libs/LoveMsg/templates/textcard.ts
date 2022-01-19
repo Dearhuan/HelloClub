@@ -12,7 +12,7 @@
 import dayjs from '../../../utils/dayjs'
 
 // 相识的日子
-const start_stamp = '2021-03-26'
+const start_stamp = '2021-05-01'
 
 export const textCardTemplate = (data: TextCardTemplateProps) => {
   const {
@@ -60,11 +60,11 @@ ${win}：${win_speed_day}
   }
 
   // 最高温度
-  if (+tem1 <= 3) {
+  if (+tem1 <= 10) {
     description += `
-哈喽哈喽~这里是来自崽崽的爱心提醒哦：
+Hello~这里是来自Dearhuan的爱心提醒哦：
 今日最高温度仅为🥶 ${tem1}℃，可冷可冷了~
-鱼崽崽可要注意保暖哦~\n`
+宝宝可要注意保暖哦~\n`
   }
 
   //   if (air_tips) {
@@ -91,7 +91,7 @@ ${win}：${win_speed_day}
       //   url: 'https://api.lovelive.tools/api/SweetNothings',
       //   url: 'https://v1.jinrishici.com/all.svg',
       url: 'https://api.vvhan.com/api/60s', // 60s看世界
-      btntxt: 'By崽崽',
+      btntxt: 'By Dearhuan',
     },
   }
 }
