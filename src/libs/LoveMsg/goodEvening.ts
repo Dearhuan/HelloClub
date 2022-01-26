@@ -11,7 +11,7 @@ const getStory = async() => {
   const template = {
     msgtype: 'text',
     text: {
-      content: `Good night：
+      content: `Good night~
 🌑🌒🌓🌔🌕🌝😛\n
 『${res.title}』
 ${res.content}`,
