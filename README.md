@@ -288,7 +288,7 @@ While there is life, there is hope.
 
 完整代码见仓库，已开源 <https://github.com/JS-banana/notify-server>
 
-欢迎一起交流
+欢迎一起交流!
 
 <!-- ## 感谢
 
